@@ -12,12 +12,6 @@ body {
     cursor: pointer;
 }
 
-.group {
-    columns: 4;
-    column-count: 4;
-    column-gap: 15px;
-}
-
 .links {
     display: none;
     border: 1px solid #000;
