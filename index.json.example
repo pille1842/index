@@ -1,7 +1,9 @@
 {
     "title": "Index",
-    "plugins-top": ["subreddit"],
+    "plugins-top": ["clock", "subreddit"],
     "plugins-bottom": [],
+    "subreddit-shortcut": "Shift+r",
+    "clock-twentyfour": "on",
     "groups": [
         {
             "title": "Social Networks",
