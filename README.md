@@ -3,6 +3,8 @@
 This is a simple, yet highly customizable start page based on PHP and jQuery. It supports quick
 navigation via hotkeys and can be extended with plug-ins.
 
+![Screenshot](https://github.com/pille1842/index/raw/master/screenshot.png)
+
 ## Installation
 
 Place the files in a folder of your choosing inside your document root. Then rename the
