@@ -13,7 +13,7 @@ $('.subreddit-form').submit(function (event) {
 $('.subreddit-heading').on('click', function () {
     $(this).next('.subreddit-input').focus();
 });
-$(document).bind('keydown', 'Shift+r', function (event) {
+$(document).bind('keydown', $('.subreddit-input').data('shortcut'), function (event) {
     $('.subreddit-input').focus();
     event.preventDefault();
 });
