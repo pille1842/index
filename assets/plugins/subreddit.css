@@ -1,0 +1,13 @@
+.subreddit-form {
+    padding: 15px 0;
+}
+
+.subreddit-heading {
+    cursor: pointer;
+}
+
+.subreddit-input {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 3px;
+}

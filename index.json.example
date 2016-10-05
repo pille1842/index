@@ -1,0 +1,50 @@
+{
+    "title": "Index",
+    "plugins-top": ["subreddit"],
+    "plugins-bottom": [],
+    "groups": [
+        {
+            "title": "Social Networks",
+            "shortcut": "s",
+            "links": [
+                {
+                    "title": "Facebook",
+                    "shortcut": "f",
+                    "url": "https://www.facebook.com/"
+                },
+                {
+                    "title": "Google+",
+                    "shortcut": "g",
+                    "url": "https://plus.google.com/"
+                },
+                {
+                    "title": "Twitter",
+                    "shortcut": "t",
+                    "url": "https://www.twitter.com/"
+                },
+            ]
+        },
+        {
+            "title": "Manuals",
+            "shortcut": "m",
+            "links": [
+                {
+                    "title": "PHP",
+                    "shortcut": "p",
+                    "url": "https://www.php.net/"
+                }
+            ]
+        },
+        {
+            "title": "Reddit",
+            "shortcut": "r",
+            "links": [
+                {
+                    "title": "/r/startpages",
+                    "shortcut": "t",
+                    "url": "https://www.reddit.com/r/startpages/"
+                }
+            ]
+        }
+    ]
+}

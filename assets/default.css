@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.group h2 {
+    cursor: pointer;
+}
+
+.group {
+    columns: 4;
+    column-count: 4;
+    column-gap: 15px;
+}
+
+.links {
+    display: none;
+    border: 1px solid #000;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    padding: 10px 10px;
+    display: inline-block;
+    width: 20%;
+}
+
+.link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.shortcut {
+    font-family: monospace;
+    border: 1px solid #000;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 3px;
+}
