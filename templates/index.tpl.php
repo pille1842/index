@@ -50,54 +50,8 @@
         crossorigin="anonymous"></script>
     <script
         src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/jquery.hotkeys.js"></script>
-    <script>
-      $('.group').each(function () {
-        var group = $(this);
-        var links = group.find('.links');
-        var shortcut = group.data('shortcut');
-        $(document).bind('keydown', shortcut, function () {
-          console.log('Key ' + shortcut + ' was hit, toggling group');
-          $('.links').hide();
-          // Unset all link key handlers
-          $(document).unbind('keydown.link');
-          // Set new handlers for links in this group
-          links.find('.link').each(function () {
-            var link = $(this);
-            var url = link.find('a').attr('href');
-            var shortcut = link.data('shortcut');
-            $(document).bind('keydown.link', shortcut, function () {
-              win = window.open(url, '_blank');
-              if (win) {
-                win.focus();
-              } else {
-                alert('You need to enable pop-ups for this page to use link shortcuts.');
-              }
-            });
-          });
-          links.show();
-        });
-        group.on('click', function () {
-          $('.links').hide();
-          // Unset all link key handlers
-          $(document).unbind('keydown.link');
-          // Set new handlers for links in this group
-          links.find('.link').each(function () {
-            var link = $(this);
-            var url = link.find('a').attr('href');
-            var shortcut = link.data('shortcut');
-            $(document).bind('keydown.link', shortcut, function () {
-              win = window.open(url, '_blank');
-              if (win) {
-                win.focus();
-              } else {
-                alert('You need to enable pop-ups for this page to use link shortcuts.');
-              }
-            });
-          });
-          links.show();
-        });
-      });
-    </script>
+    <script
+        src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/default.js"></script>
     <?php foreach ($data['plugins-top'] as $plugin) { ?>
       <script
         src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/plugins/<?= $plugin ?>.js"></script>
