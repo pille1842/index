@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title><?= $data['title'] ?></title>
-    <link href="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/default.css" rel="stylesheet" type="text/css">
+    <link href="<?= $data['baseurl'] ?>assets/default.css" rel="stylesheet" type="text/css">
     <?php foreach ($data['plugins-top'] as $plugin) { ?>
-      <link href="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/plugins/<?= $plugin ?>.css" rel="stylesheet" type="text/css">
+      <link href="<?= $data['baseurl'] ?>assets/plugins/<?= $plugin ?>.css" rel="stylesheet" type="text/css">
     <?php } ?>
     <?php foreach ($data['plugins-bottom'] as $plugin) { ?>
-      <link href="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/plugins/<?= $plugin ?>.css" rel="stylesheet" type="text/css">
+      <link href="<?= $data['baseurl'] ?>assets/plugins/<?= $plugin ?>.css" rel="stylesheet" type="text/css">
     <?php } ?>
   </head>
   <body>
@@ -54,16 +54,16 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous"></script>
     <script
-        src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/jquery.hotkeys.js"></script>
+        src="<?= $data['baseurl'] ?>assets/jquery.hotkeys.js"></script>
     <script
-        src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/default.js"></script>
+        src="<?= $data['baseurl'] ?>assets/default.js"></script>
     <?php foreach ($data['plugins-top'] as $plugin) { ?>
       <script
-        src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/plugins/<?= $plugin ?>.js"></script>
+        src="<?= $data['baseurl'] ?>assets/plugins/<?= $plugin ?>.js"></script>
     <?php } ?>
     <?php foreach ($data['plugins-bottom'] as $plugin) { ?>
       <script
-        src="<?= dirname($_SERVER['REQUEST_URI']) ?>assets/plugins/<?= $plugin ?>.js"></script>
+        src="<?= $data['baseurl'] ?>assets/plugins/<?= $plugin ?>.js"></script>
     <?php } ?>
   </body>
 </html>

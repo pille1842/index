@@ -1,5 +1,6 @@
 {
     "title": "Index",
+    "baseurl": "/",
     "plugins-top": [],
     "plugins-bottom": [],
     "groups": [
