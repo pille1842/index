@@ -5,12 +5,18 @@ It supports quick navigation via hotkeys and can be extended with plug-ins.
 
 ![Screenshot](https://github.com/pille1842/index/raw/master/screenshot.png)
 
+You can see a live demo with all plug-ins enabled
+[here](http://www.erixpage.de/indexdemo/).
+
 ## Installation
 
 Place the files in a folder of your choosing inside your document root.  Then
 rename the `index.json.example` file to `index.json` or create a new file
 based on it.  There needs to be a valid JSON file called `index.json` in the
 same directory as `index.php`.
+
+If your index resides in a subdirectory of your document root, you will need
+to change the value of `baseurl` in the index.json.
 
 That's it!  You should be good to go.
 
