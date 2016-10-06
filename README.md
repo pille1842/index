@@ -119,9 +119,9 @@ need to specify a hotkey; when pressed, focus is given to the search field.
 
 ## Contributions
 
-Since this project is work-in-progress, there's only a subreddit quickjump
-plug-in as of now. If you have ideas for useful plug-ins this project could
-ship by default, I'd appreciate a pull request!
+Since this project is work-in-progress, there's only a few plug-ins I might
+personally use right now.  If you have ideas for useful plug-ins this project
+could ship by default, I'd appreciate a pull request!
 
 ## License
 
