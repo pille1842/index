@@ -1,0 +1,13 @@
+.google-form {
+    padding: 15px 0;
+}
+
+.google-heading {
+    cursor: pointer;
+}
+
+.google-input {
+    width: 99%;
+    border: 1px solid #000;
+    padding: 3px;
+}
